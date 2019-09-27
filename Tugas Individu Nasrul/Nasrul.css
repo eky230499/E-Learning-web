@@ -1,0 +1,48 @@
+body{
+  background-image: url(kerja.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+.utama h1{
+  text-align:center;
+  text-shadow: 1px;
+  color: white;
+  width: 525px;
+  font-size: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+
+}
+.utama table{
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 5px;
+  padding:25px;
+  padding-bottom: 5px;
+  color: white;
+}
+.tabel input{
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 15px;
+}
+.submit{
+  background: rgba(255, 255, 255, 0.5);
+  color:white;
+}
+.tombol input{
+  background: rgba(0,0,0,1);
+  color: white;
+  font-size: 15px
+}
+.tombol input:hover{
+  background: rgba(0, 0, 0, 1);
+  color:white;
+}
+.heading{
+  text-align:center;
+  font:50px arial;
+}
