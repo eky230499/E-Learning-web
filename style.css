@@ -1,0 +1,80 @@
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  border: 0px;
+  background-size: contain;
+  background-color: #e6f8f9;
+}
+a{
+  text-decoration: none;
+  margin-right: 350px;
+}
+.text1{
+  font-family: helvetica;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+}
+.menu{
+  width: 100%;
+  height: 100%;
+}
+.menu ul{
+  display: inline-flex;
+  margin: 20px;
+  list-style: none;
+  text-align: justify;
+}
+.menu ul li{
+  margin: 10px 50px 10px 10px;
+  color: white;
+  cursor: pointer;
+}
+.menunormal{
+  padding: 10px 10px;
+}
+.aktif{
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 10px 10px;
+}
+.login{
+  right: 100px;
+  position: absolute;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.joinus{
+  right: 10px;
+  position: absolute;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.judul{
+  font-size: 30px;
+  color: white;
+}
+.fitur{
+  font-family: sans-serif;
+  margin: 50px auto;
+  width: 670px;
+  height: 150px;
+  box-shadow: 0px 5px 10px grey;
+  background-color: white;
+  border-radius: 30px
+}
+.fitur ul{
+  padding: auto;
+  display: inline-flex;
+  list-style: none;
+  text-align: justify;
+
+}
+.fitur li{
+  margin: 10px 50px 10px 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
