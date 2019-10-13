@@ -128,52 +128,74 @@
   border-radius: 50px;
   margin-top: 150px;
 }
-.logindaftar{
-  background-color: none;
-  font-size: 50px;
-  position: absolute;
-  right: 155px;
-  top: 150px;
+.loginbox {
+    background: #FFFFFF;
+    color: #000000;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius: 20px;
+}
 
+
+
+.loginbox h1 {
+    margin: 0;
+    padding: 0 0 29px;
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
 }
-.logindaftar a{
-  margin-right: 20px;
-  border: 2px solid;
-  border-radius: 20px;
-  padding: 5px 10px;
-  text-decoration: none;
-  background-color: powderblue;
-  opacity: 0.80;
-  color: black;
+
+.loginbox p {
+    font-family: "Source Sans Pro";
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #000000;
 }
-.datadiri1{
-  background-color: none;
-  font-size: 45px;
-  position: absolute;
-  margin-left: 80px;
-  margin-top: 280px;
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
 }
-.datadiri2{
-  background-color: none;
-  font-size: 43px;
-  position: absolute;
-  margin-left: 80px;
-  margin-top: 350px;
+
+.loginbox input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
 }
-.gas{
-  background-color: none;
-  font-size: 50px;
-  position: absolute;
-  right: 155px;
-  bottom: 150px;
+
+.loginbox input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
 }
-.gas a{
-  margin-right: 20px;
-  border: 2px solid;
-  border-radius: 20px;
-  padding: 5px 10px;
-  text-decoration: underline;
-  background-color: green;
-  opacity: 0.8;
-  color: black;
+
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000000;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: #42A5F5;
+    color: #FFFFFF;
 }
