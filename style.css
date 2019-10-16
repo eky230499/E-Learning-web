@@ -62,22 +62,22 @@
   left: 40px;
   top: 30%;
   padding-top: 30px;
-  height: 520px;
+  height: 620px;
 }
 .headpaket{
-  font-size: 60px;
+  font-size: 5vw;
   font-weight: lighter;
   width: 100%;
   text-align: left;
   margin-left: 40px;
 }
 .headpaket p{
-  font-size: 20px;
+  font-size: 1.5vw;
   margin: 0
 }
 .paket{
   position: absolute;
-  top: 140px;
+  top: 10vw;
   background-color: none;
   width: 80%;
   height: 300px;
@@ -88,12 +88,12 @@
 }
 .kata2{
   position: absolute;
-  top: 13%;
+  top: 13vw;
   left:50px;
-  font-size: 20px;
+  width:50vw;
 }
 .katamutiara{
-  font-size: 50px;
+  font-size: 4vw;
   text-align: left;
   margin-left: 50px;
 }
@@ -157,7 +157,7 @@
   width: 100%;
   background-color: #5f6769;
   position: absolute;
-  bottom:0;
+  bottom:0px;
   height: 200px;
   box-shadow: 0px -1px 10px #888888;
 }
@@ -351,7 +351,7 @@ body {
   width: 100%;
   height: 250px;
   background-color: white;
-  margin-top: 930px;
+  margin-top: 1000px;
 }
 .judulkeunggulan{
   position: absolute;
@@ -421,22 +421,25 @@ body {
 }
 .submit1{
   position: absolute;
-  bottom: 40px;
+  margin-top: 400px;
   width: 100%;
   background-color: none;
 }
 .submit1 input{
   width: 250px;
   height: 50px;
-  margin-left: 25%;
+  display: block;
+  margin: 0 auto;
   border: 0;
   border-radius: 50px;
   font-size: 20px;
   background-color: #F2D2D5;
   color: #5D1E1E;
 }
-/*Select Container*/
-/* The container must be positioned relative: */
+.submit1 a{
+  text-decoration: none;
+}
+
 .custom-select {
   position: relative;
   font-family: Arial;
@@ -447,14 +450,13 @@ body {
 }
 
 .custom-select select {
-  display: none; /*hide original SELECT element: */
+  display: none;
 }
 
 .select-selected {
   background-color: DodgerBlue;
 }
 
-/* Style the arrow inside the select element: */
 .select-selected:after {
   position: absolute;
   content: "";
@@ -466,13 +468,11 @@ body {
   border-color: #fff transparent transparent transparent;
 }
 
-/* Point the arrow upwards when the select box is open (active): */
 .select-selected.select-arrow-active:after {
   border-color: transparent transparent #fff transparent;
   top: 7px;
 }
 
-/* style the items (options), including the selected item: */
 .select-items div,.select-selected {
   color: #ffffff;
   padding: 8px 16px;
@@ -481,7 +481,7 @@ body {
   cursor: pointer;
 }
 
-/* Style items (options): */
+
 .select-items {
   position: absolute;
   background-color: DodgerBlue;
@@ -491,7 +491,6 @@ body {
   z-index: 99;
 }
 
-/* Hide the items when the select box is closed: */
 .select-hide {
   display: none;
 }
@@ -525,6 +524,10 @@ padding: 20px 50px;
   margin-left: 15%;
   text-indent: -70px;
 }
+.jawaban2 {
+  margin-left: 93px;
+}
+}
 .pertanyaan2 {
   margin-left: 5%;
   font-size: 20px;
@@ -551,5 +554,202 @@ padding: 20px 50px;
   text-align: center;
   width: 100%;
   font-size: 40px;
+}
+.utamaBelajar{
+  width: 90%;
+  margin-top: 100px;
+  height: 720px;
+  padding: 5% 5%;
+  position: relative;
+  background-color: none;
+  font-size: 2vw;
+  color: grey;
+}
+.utamaBelajar h1{
+  font-size: 5vw;
+  font-weight: 150;
+  margin: 0;
+  color: black;
+}
+.badanbelajaronline{
+  height: 95vw;
+  width: 100%;
+  position: absolute;
+}
+.tempatkelas{
+  width: 60%;
+  height: 45vw;
+  background-color: none;
+  position: relative;
+  margin-left: 30vw;
+}
+.tempatkelas h1{
+  font-size: 3vw;
+  display: block;
+  margin-top: 9%;
+}
+.tempatkelas img{
+  width: 7vw;
+  margin-top: 5%;
+
+}
+.matematika{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 45%;
+  height: 20vw;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 1px 10px #888888;
+
+}
+.biologi{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45%;
+  height: 20vw;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 1px 10px #888888;
+}
+.bindonesia{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 45%;
+  height: 20vw;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 1px 10px #888888;
+}
+.fisika{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 45%;
+  height: 20vw;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 1px 10px #888888;
+}
+.utama5 {
+    width: 100%;
+    background-color: none ;
+    position: relative;
+    margin-top: 250px;
+    height: 520px;
+}
+.loginbox2 {
+    background: #FFFFFF;
+    color: #000000;
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    border-radius: 5px;
+    width: 50vw;
+    margin-top: 70px;
+    box-shadow: 0px 1px 10px #888888;
+}
+
+.loginbox2 h1 {
+    margin-bottom: 29px;
+    margin-top: 0;
+    background-color: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.loginbox2 p {
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #000000;
+}
+
+.loginbox2 input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox2 input[type="text"] {
+    border: 1px solid grey;
+    background: transparent;
+    height: 35px;
+    color: #000;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.loginbox2 input[type="password"] {
+  border: 1px solid grey;
+  background: transparent;
+  height: 35px;
+  color: #000;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.loginbox2 input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000000;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.loginbox2 input[type="submit"]:hover {
+    cursor: pointer;
+    background: #42A5F5;
+    color: #FFFFFF;
+}
+
+.kelas{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: grey;
+}
+.kelas select{
+  display: none;
+}
+.badandaftar{
+  position: absolute;
+  width: 100%;
+  height: 1200px;
+}
+@media only screen and (min-width:1600px) {
+  .menu1{
+    position: absolute;
+    right: 25%;
+  }
+  .pilihpaket{
+    top: 35%;
+    height : 720px;
+  }
+  .keunggulan{
+    margin-top: 1150px;
+  }
+  .hargapaket{
+    top:35%;
+    background-color: none;
+    border: 1px solid;
+    width: 95%;
+    height: 160px;
+    border-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    left:2%;
+  }
 }
 }
