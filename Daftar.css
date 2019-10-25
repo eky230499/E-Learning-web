@@ -1,0 +1,330 @@
+/*Seluruh Badan*/
+body {
+	background-color: none;
+	max-height: 1920px;
+	border-style: none;
+	margin: 0;
+	font-family: sans-serif;
+}
+.badandaftar {
+	position: absolute;
+	width: 100%;
+	height: 1300px;
+}
+/*Kepala alias header*/
+.kepala {
+    width: 100%;
+    background-color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    box-shadow: 0px 1px 10px #888888;
+}
+.Logo {
+    background-color: none;
+    margin-top: 20px;
+    font-size: 50px;
+    position: absolute;
+    left: 30px;
+    font-family: 'Lucida Calligraphy';
+}
+.menu1 {
+    background-color: none;
+    font-size: 20px;
+    position: absolute;
+    right: 30%;
+    top: 40px;
+}
+.menu1 a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+.login{
+  background-color: none;
+  font-size: 20px;
+  position: absolute;
+  right: 50px;
+  top: 40px;
+}
+.login a{
+  margin-right: 20px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: #042137;
+  text-decoration: none;
+  color: white;
+}
+.login a:hover{
+  background-color: white;
+  color: black;
+}
+/*Mulai masuk bagian badan*/
+.utama5 {
+	width: 100%;
+	background-color: none;
+	position: relative;
+	margin-top: 100px;
+	height: 520px;
+}
+.gambar{
+  width: 100%;
+  height:100px;
+  top:0;
+  display: block;
+  position: absolute;
+}
+.gambar img{
+  opacity: 0.8;
+  top: 0;
+  width: 100%;
+  position: absolute;
+}
+.loginbox2 {
+    background: #FFFFFF;
+    color: #000000;
+    top: 80%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+    border-radius: 5px;
+    width: 50vw;
+    margin-top: 10%;
+    box-shadow: 0px 1px 10px #888888;
+}
+.loginbox2 h1 {
+    margin-bottom: 29px;
+    margin-top: 0;
+    background-color: none;
+    font-family:Candara;
+    font-size: 5.2vw;
+    text-align: center;
+    color: #000000;
+}
+.loginbox2 p {
+    font-family:Candara;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #000000;
+    font-size:1.2vw;
+}
+.loginbox2 a{
+    font-family:Candara;
+    text-align:center;
+    display:block;
+    color:black;
+    text-decoration: underline;
+}
+.loginbox2 input {
+    width: 98%;
+    margin-bottom: 20px;
+    border-radius:5px;
+    padding-left:10px;
+}
+.loginbox2 input[type="text"] {
+    border: 1px solid grey;
+    background: transparent;
+    height: 3.3vw;
+    color: #000;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-top:12px;
+}
+.loginbox2 input[type="number"] {
+    border: 1px solid grey;
+    background: transparent;
+    height: 3.3vw;
+    color: #000;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-top:12px;
+}
+.loginbox2 input[type="email"] {
+  border: 1px solid grey;
+  background: transparent;
+  height: 3.3vw;
+  color: #000;
+  margin-top: 5px;
+  font-size: 16px;
+  margin-top:12px;
+}
+.loginbox2 input[type="password"] {
+  border: 1px solid grey;
+  background: transparent;
+  height: 3.3vw;
+  color: #000;
+  margin-top: 5px;
+  font-size: 16px;
+  margin-top:12px;
+}
+.loginbox2 input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 3.3vw;
+    background: #FF9494;
+    font-size: 18px;
+    font-family:Candara;
+    font-weight:700;
+    color: #000;
+    border-radius: 20px;
+    margin-top:12px;
+}
+.loginbox2 input[type="submit"]:hover {
+    cursor: pointer;
+    background: #BCE4E4;
+    color: #FFFFFF;
+}
+.kelas {
+    margin-top: 12px;
+    width: 100%;
+    height: 3.3vw;
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.kelas select{
+  display: none;
+}
+/*Kaki alias Footer*/
+.kaki {
+    width: 100%;
+    background-color: #042137;
+    position: absolute;
+    bottom: 0px;
+    height: 200px;
+    box-shadow: 0px -1px 10px #888888;
+}
+.logo2 {
+    background-color: none;
+    margin-top: 15px;
+    font-size: 50px;
+    position: absolute;
+    left: 40px;
+    color: white;
+    font-family: 'Lucida Calligraphy';
+}
+.menu2{
+  margin-top: 80px;
+}
+.menu2 ul{
+  list-style: none;
+}
+.menu2 ul li{
+  margin-bottom: 5px;
+}
+.menu2 ul li a{
+  text-decoration: none;
+  color: white;
+}
+.kontak{
+  width: 100%;
+  height:40px;
+  position: absolute;
+  bottom: 0;
+  background-color: #031D2D;
+}
+.kontak1{
+  position: relative;
+  color: white;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.kontak2{
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  color:white;
+}
+@media only screen and (max-width: 1000px){
+  body{
+      max-height:1920px;
+  }
+  .gambar1{
+    display: none;
+  }
+  .pilihpaket{
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    padding-top: 30px;
+    height: 620px;
+  }
+  .menu1{
+    display: none;
+  }
+  .katamutiara{
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+  .kata2{
+    display: block;
+    text-align: center;
+    width: 90%;
+    left: 30px;
+    font-size: 2.5vw;
+  }
+  .judulkeunggulan{
+    bottom:105%;
+    font-size: 50px;
+  }
+  .keunggulanteks{
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    bottom: 50px;
+  }
+  .teks1{
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    left: 35%;
+    bottom: 90%;
+    font-size: 25px;
+  }
+  .teks1 h1{
+    font-size: 30px;
+  }
+  .teks2{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    height: 150px;
+    left: 30%;
+    bottom: 45%;
+    font-size: 25px;
+  }
+  .teks2 h1{
+    font-size: 30px;
+  }
+  .teks3{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    height: 150px;
+    left: 30%;
+    bottom: 0;
+    font-size: 25px;
+  }
+  .teks3 h1{
+    font-size: 30px;
+  }
+  .keunggulan{
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    margin-top: 1000px;
+  }
+}
