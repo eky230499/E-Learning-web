@@ -135,7 +135,7 @@
             console.log("doc ready");
             $("#tombolalumni").on("click", function () {
                 $.getJSON("alumni.json", function (data) {
-                    $each(data, function (key, value) {
+                    $.each(data, function (key, value) {
                         $("#tabelalumni").append("<tr>");
                         $("#tabelalumni").append("<td>" + value.nama + "</td>");
                         $("#tabelalumni").append("<td>" + value.pekerjaan + "</td>");
