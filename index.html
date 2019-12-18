@@ -4,106 +4,122 @@
     <meta charset="utf-8">
     <title>Les-O</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    
 </head>
-  <body class="index">
+<body class="index">
     <div class="gambar">
-      <img src="81744.jpg" alt="">
+        <img src="81744.jpg" alt="">
     </div>
-      <div class="kepala">
+    <div class="kepala">
         <div class="Logo">
-          Les-O
+            Les-O
         </div>
         <div class="menu1">
-          <a href="index.html">Home</a>
-          <a href="DaftarLogin.html">Belajar Online</a>
-          <a href="bantuan.html">Bantuan</a>
+            <a href="index.html">Home</a>
+            <a href="DaftarLogin.html">Belajar Online</a>
+            <a href="bantuan.html">Bantuan</a>
         </div>
         <div class="login">
-          <a href="DaftarLogin.html">Masuk</a>
-          <a href="Daftar.html">Daftar</a>
+            <a href="DaftarLogin.html">Masuk</a>
+            <a href="Daftar.html">Daftar</a>
         </div>
-      </div>
-      <div class="utama">
+        <div class="phonebutton" id="phonebutton" onclick="phonemenu()">
+            <ul>
+                <li>-</li>
+                <li>-</li>
+                <li>-</li>
+            </ul>
+        </div>
+    </div>
+    <div class="utama">
         <p class="katamutiara">Bimbel Online Termurah No.1<br>di Indonesia</p>
         <p class="kata2">Bimbingan Belajar Online membantu kuasai materimu dengan mudah, dipercaya lebih dari 15.000 pelajar di Indonesia.</p>
         <div class="gambar1">
-          <img src="2650147.png" alt="">
+            <img src="2650147.png" alt="">
         </div>
         <div class="pilihpaket">
-          <form class="" action="index.html" method="post">
-          <div class="headpaket">
-            Pilih Paketmu!
-            <p>Tersedia untuk SMA kelas 1,2 dan 3</p>
-          </div>
-          <div class="paket">
-            <div class="paketkelas">
-              <h4>Kelas</h4>
-              <select name="Kelas" class="custom-select">
-                <option value="">10 SMA</option>
-                <option value="">11 SMA</option>
-                <option value="">12 SMA</option>
-              </select>
-            </div>
-            <div class="paketpaket">
-              <h4>Paket</h4>
-              <select name="Kelas" class="custom-select">
-                <option value="">1 Semester</option>
-                <option value="">1 Tahun</option>
-                <option value="">2 Tahun</option>
-              </select>
-            </div>
-            <div class="hargapaket">
-              Harga Paket
-              <p>Rp.300.000</p>
-              <div class="timelimit">
-                <p>Berlaku hingga 31 Desember 2019</p>
-              </div>
-            </div>
-          </div>
-          <div class="submit1">
-            <input type="submit" formaction="DaftarLogin.html" name="submit" value="Langganan Sekarang!">
-          </div>
-          </form>
+            <form class="" action="index.html" method="post">
+                <div class="headpaket">
+                    Pilih Paketmu!
+                    <p>Tersedia untuk SMA kelas 1,2 dan 3</p>
+                </div>
+                <div class="paket">
+                    <div class="paketkelas">
+                        <h4>Kelas</h4>
+                        <select name="Kelas" class="custom-select" id="pilihan1" onchange="cekharga()">
+                            <option value="10 SMA" id="kelas1">10 SMA</option>
+                            <option value="11 SMA" id="kelas2">11 SMA</option>
+                            <option value="12 SMA" id="keals3">12 SMA</option>
+                        </select>
+                    </div>
+                    <div class="paketpaket">
+                        <h4>Paket</h4>
+                        <select name="Kelas" class="custom-select" id="pilihan2">
+                            <option value="1 Semester" id="tahun1">1 Semester</option>
+                            <option value="2 Semester" id="tahun2">1 Tahun</option>
+                            <option value="3 Semester" id="tahun3">2 Tahun</option>
+                        </select>
+                    </div>
+                    <div class="hargapaket" id="hargapaket">
+                        <h4>Harga Paket</h4>
+                        <p id="harga">Rp.280.000</p>
+                        <div class="timelimit">
+                            <p>Berlaku hingga 31 Desember 2019</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="submit1">
+                    <input type="submit" formaction="DaftarLogin.html" name="submit" value="Langganan Sekarang!">
+                </div>
+            </form>
         </div>
         <div class="keunggulan">
-          <div class="judulkeunggulan">
-            Belajar Makin Mantap Dengan Les-O
-          </div>
-          <div class="keunggulanteks">
-            <div class="teks1">
-              <h1>Materi Lengkap</h1>
-              Belajar materi selanjutnya <br>menjadi lebih mudah
+            <div class="judulkeunggulan">
+                Belajar Makin Mantap Dengan Les-O
             </div>
-            <div class="teks2">
-              <h1>Guru Seru</h1>
-              Dengan materi yang interaktif<br>membuat belajar makin seru
+            <div class="keunggulanteks">
+                <div class="teks1">
+                    <h1>Materi Lengkap</h1>
+                    Belajar materi selanjutnya <br>menjadi lebih mudah
+                </div>
+                <div class="teks2">
+                    <h1>Guru Seru</h1>
+                    Dengan materi yang interaktif<br>membuat belajar makin seru
+                </div>
+                <div class="teks3">
+                    <h1>Biaya Murah</h1>
+                    Bimbel Online ter-murah No.1 <br>di Indonesia dengan <br>fitur cicilan
+                </div>
             </div>
-            <div class="teks3">
-              <h1>Biaya Murah</h1>
-              Bimbel Online ter-murah No.1 <br>di Indonesia dengan <br>fitur cicilan
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="kaki">
+    </div>
+    <div class="kaki">
         <div class="logo2">
-          Les-O
+            Les-O
         </div>
         <div class="menu2">
-          <ul>
-            <li><a href="tentangkami.html">Tentang Kami</a></li>
-            <li><a href="bantuan.html">Bantuan</a></li>
-            <li><a href="Kontakkami.html">Kontak Kami</a></li>
-          </ul>
+            <ul>
+                <li><a href="tentangkami.html">Tentang Kami</a></li>
+                <li><a href="bantuan.html">Bantuan</a></li>
+                <li><a href="Kontakkami.html">Kontak Kami</a></li>
+            </ul>
         </div>
         <div class="kontak">
-          <div class="kontak1">
-            &copy2019E-learning.AllRightsReserved
-          </div>
-          <div class="kontak2">
-            +6281-3329-3025 (10.00-22.00 WIB)
-          </div>
+            <div class="kontak1">
+                &copy2019E-learning.AllRightsReserved
+            </div>
+            <div class="kontak2">
+                +6281-3329-3025 (10.00-22.00 WIB)
+            </div>
         </div>
-      </div>
-  </body>
+    </div>
+    <div class="tombolsamping" id="tombolsamping">
+        <a href="index.html">Home</a>
+        <a href="DaftarLogin.html">Belajar Online</a>
+        <a href="bantuan.html">Bantuan</a>
+    </div>
+
+</body>
 </html>
