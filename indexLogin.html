@@ -1,25 +1,11 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
     <title>Les-O</title>
     <link rel="stylesheet" href="indexLogin.css">
     <script defer src="index.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script defer>
-        $(document).ready(function () {
-            $.getJSON("alumni.json", function (data) {
-                var alumni = "";
-                $each(data, function (key, value) {
-                    alumni += "<tr>";
-                    alumni += "<td>" + value.nama + "</td>";
-                    alumni += "<td>" + value.pekerjaan + "</td>";
-                    alumni += "<tr>";
-                });
-                $("#tabelalumni").append(alumni);
-            });
-        });
-    </script>
+   
 </head>
 <body class="index">
     <div class="gambar">
@@ -31,7 +17,7 @@
         </div>
         <div class="menu1">
             <a href="indexLogin.html">Home</a>
-            <a href="BelajarOnline.html">Belajar Online</a>
+            <a href="DaftarLogin.html">Belajar Online</a>
             <a href="bantuanLogin.html">Bantuan</a>
         </div>
         <div class="login">
@@ -143,6 +129,24 @@
         <a href="BelajarOnline.html">Belajar Online</a>
         <a href="bantuanLogin.html">Bantuan</a>
     </div>
+    <script src="library.js"></script>
+    <script >
+        $(document).ready(function () {
+            console.log("doc ready");
+            $("#tombolalumni").on("click", function () {
+                $.getJSON("alumni.json", function (data) {
+                    $each(data, function (key, value) {
+                        $("#tabelalumni").append("<tr>");
+                        $("#tabelalumni").append("<td>" + value.nama + "</td>");
+                        $("#tabelalumni").append("<td>" + value.pekerjaan + "</td>");
+                        $("#tabelalumni").append("<tr>");
+                    });
+                    $("#tabelalumni").append(alumni);
+                });
+            })
+
+        });
+    </script>
 
 </body>
 </html>
