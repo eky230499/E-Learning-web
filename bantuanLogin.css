@@ -1,0 +1,304 @@
+/*Seluruh Badan*/
+body {
+    background-color: none;
+    max-height: 1920px;
+    border-style: none;
+    margin: 0;
+    font-family: sans-serif;
+}
+.badanbantuan {
+    height: 1100px;
+    position: absolute;
+    width: 100%;
+}
+/*Kepala alias header*/
+.kepala {
+    width: 100%;
+    background-color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    box-shadow: 0px 1px 10px #888888;
+}
+.Logo {
+    background-color: none;
+    margin-top: 20px;
+    font-size: 50px;
+    position: absolute;
+    left: 30px;
+    font-family: 'Lucida Calligraphy';
+}
+.menu1 {
+    background-color: none;
+    font-size: 20px;
+    position: absolute;
+    right: 30%;
+    top: 40px;
+}
+.menu1 a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+.login{
+  background-color: none;
+  font-size: 20px;
+  position: absolute;
+  right: 50px;
+  top: 40px;
+}
+.login a{
+  margin-right: 20px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: #042137;
+  text-decoration: none;
+  color: white;
+}
+.login a:hover{
+  background-color: white;
+  color: black;
+}
+/*Mulai masuk bagian badan*/
+.utama3 {
+    width: 50%;
+    height: 500px;
+    background-color: none;
+    opacity: 0.7;
+    margin-left: 21%;
+    margin-top: 10px;
+    border-radius: 30px;
+    position: absolute;
+    box-shadow: 0px 1px 10px #888888;
+    padding: 20px 50px;
+}
+.badanbantuan h1{
+    position:relative;
+    text-align:center;
+    display:block;
+    font-size:4vw;
+    margin-top: 160px;
+    font-family:'Segoe UI';
+}
+.general {
+  font-size: 40px;
+  margin-left: 10%;
+  margin-bottom:40px;
+  font-weight:600;
+  font-family:Arial;
+}
+.pertanyaan1 {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 5%;
+
+}
+.jawaban1 {
+  margin-left: 15%;
+  text-indent: -73px;
+  line-height:150%;
+}
+.pertanyaan2 {
+  margin-left: 5%;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.jawaban5 {
+  margin-left: 15%;
+  text-indent: -73px;
+  line-height:150%;
+}
+/*Kaki alias Footer*/
+.kaki {
+    width: 100%;
+    background-color: #042137;
+    position: absolute;
+    bottom: 0px;
+    height: 200px;
+    box-shadow: 0px -1px 10px #888888;
+}
+.logo2 {
+    background-color: none;
+    margin-top: 15px;
+    font-size: 50px;
+    position: absolute;
+    left: 40px;
+    color: white;
+    font-family: 'Lucida Calligraphy';
+}
+.menu2{
+  margin-top: 80px;
+}
+.menu2 ul{
+  list-style: none;
+}
+.menu2 ul li{
+  margin-bottom: 5px;
+}
+.menu2 ul li a{
+  text-decoration: none;
+  color: white;
+}
+.kontak{
+  width: 100%;
+  height:40px;
+  position: absolute;
+  bottom: 0;
+  background-color: #031D2D;
+}
+.kontak1{
+  position: relative;
+  color: white;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.kontak2{
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  color:white;
+}
+.phonebutton {
+    font-size: 60px;
+    position: absolute;
+    right: 0px;
+    background-color: none;
+    color:black;
+    padding:0px 10px;
+    height:100%;
+    text-align:center;
+    width:40px;
+    display:none;
+}
+    .phonebutton ul {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+    }
+    .phonebutton ul li{
+        height:10px;
+    }
+.phonebutton:hover{
+    background-color: #042137;
+    color:white;
+    cursor:pointer;
+}
+#tombolsamping {
+    height: 550px;
+    width: 400px;
+    background-color: #042137;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    transition: all 500ms linear;
+    border-radius: 10px;
+    opacity: 0;
+    display: none;
+    box-shadow: 0px 1px 10px #888888;
+}
+#tombolsamping.active{
+    opacity:1;
+    display:block;
+}
+    .tombolsamping a {
+        text-decoration: none;
+        font-size: 40px;
+        width: 90%;
+        display: block;
+        color: white;
+        right:20px;
+        margin: 100px 10px;
+        text-align: right;
+    }
+@media only screen and (max-width: 1000px){
+  body{
+      max-height:1920px;
+  }
+  .gambar1{
+    display: none;
+  }
+  .phonebutton{
+      display:block;
+  }
+  .pilihpaket{
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    padding-top: 30px;
+    height: 620px;
+  }
+  .menu1{
+    display: none;
+  }
+  .katamutiara{
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+  .kata2{
+    display: block;
+    text-align: center;
+    width: 90%;
+    left: 30px;
+    font-size: 2.5vw;
+  }
+  .judulkeunggulan{
+    bottom:105%;
+    font-size: 50px;
+  }
+  .keunggulanteks{
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    bottom: 50px;
+  }
+  .teks1{
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    left: 35%;
+    bottom: 90%;
+    font-size: 25px;
+  }
+  .teks1 h1{
+    font-size: 30px;
+  }
+  .teks2{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    height: 150px;
+    left: 30%;
+    bottom: 45%;
+    font-size: 25px;
+  }
+  .teks2 h1{
+    font-size: 30px;
+  }
+  .teks3{
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    height: 150px;
+    left: 30%;
+    bottom: 0;
+    font-size: 25px;
+  }
+  .teks3 h1{
+    font-size: 30px;
+  }
+  .keunggulan{
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    margin-top: 1000px;
+  }
+}
