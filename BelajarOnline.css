@@ -69,71 +69,85 @@ body {
   padding: 5% 5%;
   position: relative;
   background-color: none;
-  font-size: 2vw;
+  font-size: 30px;
   color: grey;
 }
 .utamaBelajar h1{
-  font-size: 5vw;
+  font-size: 80px;
   margin: 0;
   color: black;
 }
 .tempatkelas{
-  width: 60%;
-  height: 45vw;
+  width: 70%;
+  height: 500px;
   background-color: none;
   position: relative;
   margin-left: 30vw;
 }
 .tempatkelas h1{
-  font-size: 3vw;
+  font-size: 35px;
   display: block;
   margin-top: 9%;
+
 }
 .tempatkelas img{
-  width: 7vw;
+  width: 100px;
   margin-top: 5%;
 
 }
+.tempatkelas a{
+    text-decoration:none;
+}
 .matematika{
-  position: absolute;
-  left: 0;
+  position: relative;
+  right:0;
   top: 0;
-  width: 45%;
-  height: 20vw;
+  width: 360px;
+  height: 250px;
   background-color: white;
   text-align: center;
   box-shadow: 0px 1px 10px #888888;
+  display:inline-block;
+  margin:20px;
+  
 
 }
-.biologi{
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 45%;
-  height: 20vw;
-  background-color: white;
-  text-align: center;
-  box-shadow: 0px 1px 10px #888888;
+.biologi {
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 360px;
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 1px 10px #888888;
+    margin-right: 0px;
+    display: inline-block;
+    margin: 20px;
 }
-.bindonesia{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 45%;
-  height: 20vw;
-  background-color: white;
-  text-align: center;
-  box-shadow: 0px 1px 10px #888888;
+.bindonesia {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 360px;
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 1px 10px #888888;
+    display: inline-block;
+    margin: 20px;
 }
-.fisika{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 45%;
-  height: 20vw;
-  background-color: white;
-  text-align: center;
-  box-shadow: 0px 1px 10px #888888;
+.fisika {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 360px;
+    height: 250px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 1px 10px #888888;
+    display: inline-block;
+    margin: 20px;
 }
 /*Kaki alias Footer*/
 .kaki {
@@ -185,9 +199,99 @@ body {
   bottom: 10px;
   color:white;
 }
+.phonebutton {
+    font-size: 60px;
+    position: absolute;
+    right: 0px;
+    background-color: none;
+    color:black;
+    padding:0px 10px;
+    height:100%;
+    text-align:center;
+    width:40px;
+    display:none;
+}
+    .phonebutton ul {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+    }
+    .phonebutton ul li{
+        height:10px;
+    }
+.phonebutton:hover{
+    background-color: #042137;
+    color:white;
+    cursor:pointer;
+}
+#tombolsamping {
+    height: 550px;
+    width: 400px;
+    background-color: #042137;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    transition: all 500ms linear;
+    border-radius: 10px;
+    opacity:0;
+    box-shadow: 0px 1px 10px #888888;
+    display:none;
+}
+#tombolsamping.active{
+    opacity:1;
+    display:block;
+}
+    .tombolsamping a {
+        text-decoration: none;
+        font-size: 40px;
+        width: 90%;
+        display: block;
+        color: white;
+        right:20px;
+        margin: 100px 10px;
+        text-align: right;
+    }
 @media only screen and (max-width: 1000px){
   body{
-      max-height:1920px;
+      max-height:2700px;
+  }
+  .phonebutton{
+      display:block;
+  }
+  .tempatkelas{
+      margin-left:0;
+      width:100%;
+  }
+  .matematika{
+      width:100%;
+      height: 500px;
+      margin-top:20px;
+      margin-right:0;
+      margin-left:0;
+  }
+  .biologi{
+      width:100%;
+      height: 500px;
+      margin-top:20px;
+      margin-right:0;
+      margin-left:0;
+  }
+  .fisika{
+      width:100%;
+      height: 500px;
+      margin-top:20px;
+      margin-right:0;
+      margin-left:0;
+  }
+  .bindonesia{
+      width:100%;
+      height: 500px;
+      margin-top:20px;
+      margin-right:0;
+      margin-left:0;
+  }
+  .badanbelajaronline{
+      height:2700px;
   }
   .gambar1{
     display: none;
